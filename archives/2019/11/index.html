@@ -24,7 +24,9 @@
   
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/gskun2000.github.io/css/style.css?v=1573232600856">
+  <link rel="stylesheet" href="/gskun2000.github.io/css/style.css?v=1573265610821">
+<link rel="stylesheet" href="\\gskun2000.github.io\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\\gskun2000.github.io\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -172,10 +174,28 @@
         </div>
         <article>
             
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=26447698&auto=1&height=66"></iframe>    
-#简介
-利用Hexo+Nexmoe主题创建该博客,最初采用Next主题进行美化，发现点击home标签无法正确跳转到主页，原始landscape主题没有跳转错误，于是换成Nexmoe主题，问题解决
-
+            
+        <div id="aplayer-awqASTlc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-awqASTlc"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "アイロニ",
+              author: "Piano cover",
+              url: "http://lc-OB8zJ13C.cn-n1.lcfile.com/907046cf9addb6d65f31/1n%20-%20%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%28piano%20ver%29%EF%BC%88Cover%20majiko%EF%BC%89.mp3",
+              pic: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573275564564&di=4fe8035df1d8d9ab8e0836622f66144c&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D1815831992%2C3267530142%26fm%3D214%26gp%3D0.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>    
+<p>#简介<br>利用Hexo+Nexmoe主题创建该博客,最初采用Next主题进行美化，发现点击home标签无法正确跳转到主页，原始landscape主题没有跳转错误，于是换成Nexmoe主题，问题解决</p>
 
             
         </article>
@@ -198,7 +218,7 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="/gskun2000.github.io/js/app.js?v=1573232600860"></script>
+<script src="/gskun2000.github.io/js/app.js?v=1573265610824"></script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
 
